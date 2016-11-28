@@ -4,7 +4,7 @@
 module.exports = {
   name: 'ember-dummy-addon',
 
-  isDevelopingAddon() {
-    return false;
+  isDevelopingAddon () {
+    return true
   }
 };
