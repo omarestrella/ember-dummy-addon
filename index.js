@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-dummy-addon'
+  name: 'ember-dummy-addon',
+
+  isDevelopingAddon() {
+    return false;
+  }
 };
